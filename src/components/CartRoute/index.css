@@ -1,0 +1,103 @@
+.page-container {
+  min-height: 100vh;
+}
+.cart-page {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.remove-all-button {
+  border: none;
+  background-color: transparent;
+  padding: 7px;
+  cursor: pointer;
+  align-self: flex-end;
+  color: blue;
+  margin-left: 30px;
+}
+.empty-cart-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.empty-cart-img {
+  height: 400px;
+  width: 400px;
+  text-align: center;
+}
+.ul-container {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+.li-container {
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+.cart-card-container {
+  box-shadow: 1px 1px 1px 1px grey;
+  padding: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: auto;
+  @media (min-width: 768px) {
+    min-width: 750px;
+  }
+  @media (max-width: 768px) {
+    min-width: 400px;
+  }
+}
+.dish-image {
+  height: 80px;
+  width: 70px;
+  margin-right: 8px;
+}
+.card-text-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 7px;
+}
+.card-dish-name {
+  color: black;
+  font-size: 16px;
+  margin-bottom: 7px;
+  font-weight: bold;
+}
+.card-dish-para {
+  color: grey;
+  font-size: 14px;
+  font-weight: bold;
+}
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.buttons {
+  padding: 0px;
+  box-shadow: 1px 1px 1px 1px grey;
+  margin-right: 4px;
+  width: 15px;
+}
+.quantity {
+  color: darkgoldenrod;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 4px;
+}
+.delete-button {
+  border: none;
+  height: 40px;
+  width: 28px;
+  cursor: pointer;
+  padding: 2px;
+  background-color: transparent;
+}
+.delete-icon {
+  width: 100%;
+  height: 100%;
+  color: red;
+}
